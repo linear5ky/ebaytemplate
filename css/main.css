@@ -11,6 +11,12 @@ a:hover {
   text-decoration: underline;
 }
 
+.fullwrapper {
+  background: #000;
+  color: #FFF;
+  width: 100%;
+}
+
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
