@@ -5,14 +5,12 @@ $trim:30px;
 body { font-family: 'Raleway'; } 
 a {text-decoration: none;}
 a:hover {text-decoration: underline;}
-body a:link, body .g-novisited a:visited {color:$white !important;}
-.fullwrapper {background: #000; color:$white; width:100%;}
 .wrapper {max-width:1200px; margin:0 auto; padding:$trim-small;}
 header {display:flex; justify-content: space-between; flex-wrap: wrap;} 
 
 .logo  {background: url('https://hst.co.uk/skin/frontend/rwd/hightechspec/images/logo-small.png');
  width:89px; height:30px; display:block;}
-.burger {background: url('../img/burger.png');
+.burger {background: url('https://hst.co.uk/skin/frontend/rwd/hightechspec/images/logo-small.png/img/burger.png');
  display:block; width:34px; height:34px; border:none;}
 .responsive {display: block;max-width: 100%;height: auto;}
 
@@ -20,7 +18,7 @@ header {display:flex; justify-content: space-between; flex-wrap: wrap;}
    ul {list-style:none; padding-left:0; 
 
 	  	li { padding:5px 0px; 
-	  		a {color: $white; text-transform: uppercase; font-weight:700; font-size:19px;}
+	  		a {color: $white !important; text-transform: uppercase; font-weight:700; font-size:19px;}
 	  	}
   	}
   } 
