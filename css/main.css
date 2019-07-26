@@ -1,7 +1,5 @@
 /*variables*/
 body {
-  background: #000;
-  color: #FFF;
   font-family: "Raleway";
 }
 
@@ -11,6 +9,16 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+body a:link, body .g-novisited a:visited {
+  color: #FFF !important;
+}
+
+.fullwrapper {
+  background: #000;
+  color: #FFF;
+  width: 100%;
 }
 
 .wrapper {
